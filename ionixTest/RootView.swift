@@ -50,9 +50,6 @@ struct RootView: View {
     
     
     
-    
-    
-    
     //MARK: Aqui verificamos si los permisos han sido aceptados o no y navegamos a la pantalla segune el caso
  
     func checkPermisions() async throws {
