@@ -55,10 +55,21 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
 ```
 
 
+##SplashScreen Animation
+
 
 ![IonixTestApp1](https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgi1.gif)
 
+
+##Loading animation and permissions
+
+
+
 ![IonixTestApp2](https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgif2.gif)
 
-![IonixTestApp3]https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgif3.gif)
+
+##Home App
+
+
+![IonixTestApp3](https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgif3.gif)
 
