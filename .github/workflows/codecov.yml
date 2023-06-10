@@ -15,7 +15,7 @@ jobs:
       - name: Test
         uses: actions/checkout@v1
       - name: Build and Test
-        run:  xcodebuild test -project ionixTest.xcodeproj -scheme ionixText -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' -enableCodeCoverage YES build test
+        run:  xcodebuild test -project ionixTest.xcodeproj -scheme ionixTest -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' -enableCodeCoverage YES build test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2.1.0
 
