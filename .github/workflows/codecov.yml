@@ -1,30 +1,21 @@
-name: Codecov
+name: Codecov 
 
 on:
   push:
     branches:
-      - master
+        master
+  pull_request:
+    branches:
+        master
 
 jobs:
-  codecov:
-    runs-on: macos-latest
+  build:
+    runs-on: macOS-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Xcode
-        uses: actions/setup-xcode@v2
-        with:
-          xcode-version: '12.5' # Reemplaza con la versión de Xcode que deseas utilizar
-
-      - name: Build and test
-        run: |
-          xcodebuild clean test -scheme ionixUnitTest -destination 'platform=iOS Simulator,name=iPhone 13' | xcpretty
-
-      - name: Generate coverage report
-        run: |
-          xcrun llvm-cov export -format=lcov -ignore-filename-regex='.*Tests.*' ionixTest > coverage.lcov
-
+      - name: Test
+        uses: actions/checkout@v1
+      - name: Build and Test
+        run:  xcodebuild test -project ionixTest.xcodeproj -scheme ionixUnitText -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.3' -enableCodeCoverage YES build test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2.1.0
 
