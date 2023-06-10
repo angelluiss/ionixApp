@@ -33,7 +33,7 @@ Proceso de inicialización
     
 Aquí dejo la visualización de los filtros:
 
-
+`swift`
 ``` 
 func filterMemesBySearchText(meme: [RedditChild]?) {
         if let meme = memes {
@@ -52,7 +52,7 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
     func filterMemesAndImage(meme: [RedditChild]) -> [RedditChild] {
         return meme.filter { $0.data.link_flair_text == "Shitposting" && $0.data.post_hint == "image" }
     }
-````swift`
+```
 
 
 ##  SplashScreen Animation
