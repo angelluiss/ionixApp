@@ -56,9 +56,9 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
 
 
 
-![IonixTestApp1](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi1.gif)
+![IonixTestApp1](https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgi1.gif)
 
-![IonixTestApp2](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi2.gif)
+![IonixTestApp2](https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgif2.gif)
 
-![IonixTestApp3](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi3.gif)
+![IonixTestApp3]https://github.com/angelluiss/ionixApp/blob/master/imagesReadme/ionixgif3.gif)
 
