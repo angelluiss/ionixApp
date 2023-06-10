@@ -63,7 +63,7 @@ class PermisionManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     //MARK: Ask for Location permisionManager
 
     func areLocationPermissionsGranted() -> Bool {
-        let status = CLLocationManager.authorizationStatus()
+        let status =  CLLocationManager().authorizationStatus
         return status == .authorizedWhenInUse || status == .authorizedAlways
     }
     

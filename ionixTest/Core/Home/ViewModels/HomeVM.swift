@@ -45,9 +45,8 @@ class HomeVModel: ObservableObject {
                             self?.afterPage = response.data.after
                             if let filteredMemes = self?.filterMemesAndImage(meme: response.data.children) {
                                 if after != nil {
-                                    filteredMemes.compactMap({ child in
+                                    _ = filteredMemes.compactMap({ child in
                                         self?.memes?.append(child)
-                                        
                                    })
                                     
                                     if (!(self?.searchText.isEmpty ?? false)) {
