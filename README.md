@@ -33,6 +33,7 @@ Proceso de inicialización
     
 Aquí dejo la visualización de los filtros:
 
+`swift`
 ```
 func filterMemesBySearchText(meme: [RedditChild]?) {
         if let meme = memes {
@@ -52,12 +53,12 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
         return meme.filter { $0.data.link_flair_text == "Shitposting" && $0.data.post_hint == "image" }
     }
 ```
-`swift`
 
 
-![IonixTestApp1](/Users/angelrangel/Downloads/ionixgi1.gif)
 
-![IonixTestApp2](/Users/angelrangel/Downloads/ionixgi2.gif)
+![IonixTestApp1](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi1.gif)
 
-![IonixTestApp3](/Users/angelrangel/Downloads/ionixgi3.gif)
+![IonixTestApp2](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi2.gif)
+
+![IonixTestApp3](https://github.com/angelluiss/ionixApp/tree/master//Users/angelrangel/Documents/ionixApp/imagesReadme/ionixgi3.gif)
 
