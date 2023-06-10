@@ -12,6 +12,9 @@ import Foundation
 
 /* El código muestra una implementación para asignar un ID único a los errores y facilitar su identificación y clasificación. No se refiere a un patrón de diseño específico, sino más bien a una técnica para mejorar el control y la gestión de errores en la aplicación. */
 
+
+
+
 struct IdentifiableError: Identifiable {
     let id = UUID()
     let localizedDescription: String
