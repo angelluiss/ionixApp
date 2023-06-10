@@ -55,9 +55,9 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
 `swift`
 
 
-!IonixTestApp1(/Users/angelrangel/Downloads/ionixgi1.gif)
+![IonixTestApp1](/Users/angelrangel/Downloads/ionixgi1.gif)
 
-!IonixTestApp2(/Users/angelrangel/Downloads/ionixgi2.gif)
+![IonixTestApp2](/Users/angelrangel/Downloads/ionixgi2.gif)
 
-!IonixTestApp3(/Users/angelrangel/Downloads/ionixgi3.gif)
+![IonixTestApp3](/Users/angelrangel/Downloads/ionixgi3.gif)
 
