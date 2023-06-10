@@ -6,10 +6,10 @@ Proceso de inicialización
 
 
 1. Leer detenida y detalladamente cada parte del PDF proporcionado por la compañia.
-2. Identificar el flujo de de negocio y flujo del usuario, apoyandome al escribir el flujo en papel para enterderlo mejor.
-3. Identificar el API a utilizar e investigar un poco mas a fondo con al documentación oficial.
+2. Identificar el flujo de negocio y flujo del usuario, apoyandome al escribir el flujo en papel para enterderlo mejor.
+3. Identificar el API a utilizar e investigar un poco más a fondo con la documentación oficial.
 4. Probar con Postman cada uno de los End Point requeridos.
-5. Identificar el Json de respuesta para desarrollar el/los modelos de dats a utilizar.
+5. Identificar el Json de respuesta para desarrollar el/los modelos de datos a utilizar.
 6. Dado que es una app sencilla con un flujo definido escoger un framework/dependencia, patrones de diseño y arquitectura necesarias y eficientes. Para este proyecto me apoyé con: 
     
     ### Lenguaje de Pragramación: Swift 5+
@@ -33,8 +33,8 @@ Proceso de inicialización
     
 Aquí dejo la visualización de los filtros:
 
-`swift`
-```
+
+``` 
 func filterMemesBySearchText(meme: [RedditChild]?) {
         if let meme = memes {
             if !meme.isEmpty {
@@ -52,7 +52,7 @@ func filterMemesBySearchText(meme: [RedditChild]?) {
     func filterMemesAndImage(meme: [RedditChild]) -> [RedditChild] {
         return meme.filter { $0.data.link_flair_text == "Shitposting" && $0.data.post_hint == "image" }
     }
-```
+````swift`
 
 
 ##  SplashScreen Animation
