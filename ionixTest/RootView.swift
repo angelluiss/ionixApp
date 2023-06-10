@@ -47,8 +47,6 @@ struct RootView: View {
             self.launchScreenState.dismiss()
         }
       
-        
-        
     }
     
     //MARK: Aqui verificamos si los permisos han sido aceptados o no y navegamos a la pantalla segune el caso
