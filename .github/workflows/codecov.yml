@@ -3,7 +3,7 @@ name: Codecov
 on:
   push:
     branches:
-      - codecov-prove
+      - master
 
 jobs:
   codecov:
